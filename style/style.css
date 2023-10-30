@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    padding: 0 35px 0 35px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700px;
+    color: white;
+}
+
+.btn-secondry {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 17px 24px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 7500px;
+    margin: 15px;
+    background-color: #FFF8F3;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+    padding-top: 30px;
+}
+
+.header-nav {
+    font-size: 45px;
+    font-weight: 800px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+/* About main*/
+.about-me {
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    border-radius: 10px;
+}
+
+.common-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    padding-top: 100px;
+}
+
+.aboutme-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 30px 100px 30px 100px;
+}
+
+.about-info {
+    display: flex;
+    padding: 0 100px 130px 100px;
+    justify-content: space-around;
+}
+
+.about-discription {
+    text-align: center;
+    color: #757575;
+}
+/* what I do section */
+.extra-what-do {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.extra-about-pera {
+    text-align: center;
+    padding: 30px 345px 50px 345px;
+    font-size: 18px;
+    color: #757575;
+}
+/* Bio data start */
+.extra-info {
+    display: flex;
+    gap: 24px;
+    margin: 50px 230px 130px 230px;
+}
+
+.bettwen {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.experience-img {
+    padding: 30px
+}
+
+.experience-data {
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.experience-bio {
+    padding: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+/* summary resume start */
+
+.summary-section{
+    display: flex;
+    margin: 0 230px 0 230px;
+    gap: 50px;
+
+}
+.Summary-h3{
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+}
+.Summary-h4{
+    font-size: 25px;
+    font-weight: 700px;
+}
+.hori{
+    color: #474747;
+    margin: 20px 20px 20px 0;
+}
+.download-btn{
+    margin: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer part start */
+.footer-part {
+    background-color: #FFF8F3;
+    padding: 130px 230px  130px 230px;
+    display: flex;
+    gap: 115px;
+}
+
+.footer-comment {
+    margin-bottom: 20px;   
+    font-weight: 700px;
+    color: #181818;
+    font-size: 35px;
+}
+
+.footer-comment-pera {
+    margin-bottom: 30px;
+    color: #474747;
+    
+}
+
+.footer-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-message {
+    font-size: 35px;
+    font-weight: 700px;
+    color: #181818;
+}
+
+input[type],
+input[email] {
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+    background-color: #fff;
+}
+
+textarea {
+    width: 450px;
+    height: 130px;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+
+.footer-button {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 60px;
+}
